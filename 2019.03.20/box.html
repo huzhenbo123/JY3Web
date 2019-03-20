@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>盒子变颜色</title>
+		
+		<style>
+			#container
+			{
+				width : 100px;
+				height: 100px;
+				/*background-color:deepskyblue ;*/
+				overflow: hidden;
+			}
+			#subDiv
+			{
+				width: 100px;
+				height: 100px;
+				background-color: brown;
+				transition: all 2s;
+				transition-delay: 0.5s;
+			}
+			#container:hover #subDiv
+			{
+				transform: rotate(45deg);
+				background-color: cornflowerblue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id ="container">
+			<div id="subDiv"></div>
+		</div>
+	</body>
+</html>
