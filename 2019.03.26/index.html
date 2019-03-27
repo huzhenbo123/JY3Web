@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title></title>
+		<style> 
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			#container
+		    {                                                                           
+			width: 100%;
+			height:46px;
+			background-color: red;
+			position: absolute;
+			bottom: 0px;
+			font-size: 0px;
+			}
+			.subDiv                          
+			{
+			width: 25%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+			height: 46px;
+			background-color: blue;
+			display: inline-block;
+			}
+			.subDiv:nth-child(2)
+		    {
+			background-color: purple; 
+			}
+			.subDiv:nth-child(3)
+		    {
+			background-color: aquamarine;
+			width: 25%;
+			height: 46px;
+			background-color: blue;
+			float:left;
+			}
+			#img1
+			{
+				width: 50%;
+				height: 50%;	
+			}
+			#img2
+			{
+				width: 50%;
+				height: 50%;
+			}
+			#img3
+			{
+				width: 50%;
+				height: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="subDiv">
+				<img id="img1" src="img/wechat (1).svg" />
+			</div>
+			<div class="subDiv">
+				<img id="img2" src="img/通讯录.svg" /> 
+			</div>
+			<div class="subDiv">
+				<img id="img3" src="img/Find someone.svg" />
+			</div>
+			<div class="subDiv"></div>
+		</div>
+	</body>
+</html>
