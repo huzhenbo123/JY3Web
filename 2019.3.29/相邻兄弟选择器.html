@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#category
+			{
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				float: left;
+			}
+			#content
+			{
+				width: 50px;
+				height: 50px;
+				background-color: dodgerblue;
+				float: left;
+				display: none;
+			}
+			#category:hover+#content
+			{
+				display: block;
+			}
+			#content:hover
+			{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2019-03-29
+        	描述：相邻兄弟选择器
+        -->
+        <div id="category"></div>
+        <div id="content"></div>
+	</body>
+</html>
