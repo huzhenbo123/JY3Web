@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		@-webkit-keyframes Action{
+                0%   {background: red; left:0px; top:0px;}
+                25%  {background: yellow; left:200px; top:0px;}
+                50%  {background: blue; left:200px; top:200px;}
+                75%  {background: green; left:0px; top:200px;}
+                100% {background: red; left:0px; top:0px;}
+            }
+			#my
+			{ 
+				position: absolute;
+			    animation: Action 2s ease-in-out 2s infinite alternate;
+				width: 100px;
+				height:100px;
+			}
+			</style>
+	</head>
+	<body>
+		<div id="my"></div>
+	</body>
+</html>
